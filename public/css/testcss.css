@@ -1,0 +1,121 @@
+body{
+   scroll-behavior: smooth;
+   font-family: 'PT Sans Narrow', sans-serif;
+  
+   margin:0;
+   padding:0;
+}
+.carousel-caption-down{
+	position: absolute;
+	bottom: 20%;
+	left:50%;
+	transform: translateX(-50%);
+	
+}
+.carousel-control-icon-testimonial{
+   background-color:orange;
+   border-radius:20px;
+   width: 60px;
+}
+.carousel-control-icon-main-carousel{
+   background-color:#000d1a;
+   border-radius:20px;
+   width: 60px;
+
+}
+.set-input{
+   position: relative;
+}
+.set-button{  
+   position: absolute;
+   bottom: 0;
+   right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*search*/
+.wrapper {
+ position: absolute;
+ right:-70px;
+ top: -15px;
+}
+
+.search-box {
+
+  
+}
+
+.input {
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  box-sizing: border-box;
+  width: 0px;
+  height: 45px;
+  padding: 0 20px;
+  outline: none;
+  font-size: 18px;
+  border-radius: 50px;
+  color:#000d1a;
+  border: 3px solid #000d1a;
+  transition: all 0.8s ease;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #62d474;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #62d474;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #62d474;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #62d474;
+}
+
+.btn1 {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  background: #000d1a;
+  border-radius: 50%;
+  right: 40px;
+  top: 10px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 80px;
+  font-size: 20px;
+  color: #fff;
+  transition: all 0.8s ease;
+}
+
+.input.active {
+  width: 350px;
+  right: 100px;
+}
+
+.btn1.animate {
+  transform: rotate(-360deg);
+  right: 100px;
+}
+.fa-search-icon{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform:translate(-50% ,-50%);
+
+}

@@ -1,0 +1,17 @@
+.blip-animate{
+	animation-name:blip;
+	animation-duration:1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ;
+}
+@keyframes blip{
+	from{
+		background-color:black;
+	    color: white;
+	}
+	to{
+		background-color:white;
+	    color:black;
+	}
+
+}
